@@ -2,9 +2,22 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color:#575757
+    background-color:#575757;
+    text-align: center;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  li {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid black;
+    padding: 5px;
+  }
 header {
     background-color: #333;
     color: white;
@@ -61,16 +74,8 @@ footer {
     justify-content: space-around;
     margin-top: 20px;
 }
-
-.skills__container {
-    background-color: #333; 
-    max-width: 900px; 
-    margin: 100px auto; 
-    padding: 9px; 
-    display: grid; /* this sets the display to grid */
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* this sets the grid-template-columns to repeat(auto-fit, minmax(200px, 1fr)) */
-    column-gap: 10px; /* this sets the column-gap to 10px */
-    row-gap: 10px; /* this sets the row-gap to 10px */
-    grid-template-rows: minmax(100px, auto);  /* this sets the grid-template-rows to minmax(100px, auto) */
-    align-items: end; /* this sets the align-items to end */
-  }
+h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: rgb(84, 151, 238);
+}
